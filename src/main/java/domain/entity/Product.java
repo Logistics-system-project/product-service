@@ -40,6 +40,7 @@ public class Product {
         this.description = description;
         this.createdAt = LocalDateTime.now();
     }
+
     // 업데이트 메서드
     public void update(String name, int price, int quantity, String description) {
         this.name = name;
